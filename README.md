@@ -1,13 +1,6 @@
-# Część niezbyt oficjalna
-## Artykuły z których można korzystać 
-1. https://www.samyzaf.com/ML/rl/qmaze.html \
-1.1 Szczególnie pomocny do samej budowy modelu i funkcji
-2. https://towardsdatascience.com/hands-on-introduction-to-reinforcement-learning-in-python-da07f7aaca88 \
-2.1 Prostsze wytłumaczenie samego działania reinforcement learningu \
-2.2 Zawiera prostszą wersję bez użycia głebokich sieci więc jest to idealny plan B jeżeli nam się nie uda
-
-# Część bardziej oficjalna
 # Random maze solver using QLearing in Python
+## About the project
+This project's goal is to solve any randomly generated maze using Q-Learing and Python. The agent has go to from point (0,0) to (X,Y) of given maze and on his way to exit pickup randomly generated "key"
 ## Requirements
 1. Pytnon 3.10
 2. Pipenv
@@ -19,3 +12,6 @@
 ## Adding packages
 In virtual enviroment type **pipenv install \<package name\>** like with pip. 
 Pipenv will install,check for incompabilities and append package to pipfile.
+## Bibliography
+1. https://www.samyzaf.com/ML/rl/qmaze.html \
+2. https://towardsdatascience.com/hands-on-introduction-to-reinforcement-learning-in-python-da07f7aaca88 \
